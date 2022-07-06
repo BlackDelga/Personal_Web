@@ -15,7 +15,6 @@ Table of Content
 	4. Blog Evandro Setup
 	5. Active Current Link
 	6. Mobile Toggle Click Setup
-	7. Testimonials OwlCarousel
 	8. Chart Setup
 	9. Portfolio Tilt Setup
 	10. Portfolio Image Link
