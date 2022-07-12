@@ -8,21 +8,16 @@
 
 (function (root, factory) {
 	if (typeof define === "function" && define.amd) {
-		// AMD. Register as an anonymous module unless amdModuleId is set
 		define(["jquery"], function (a0) {
 			return factory(a0);
 		});
 	} else if (typeof exports === "object") {
-		// Node. Does not work with strict CommonJS, but
-		// only CommonJS-like environments that support module.exports,
-		// like Node.
 		module.exports = factory(require("jquery"));
 	} else {
 		factory(jQuery);
 	}
 })(this, function ($) {
 	/**
-	 * Renderer to render the chart on a canvas object
 	 * @param {DOMElement} el      DOM element to host the canvas
 	 * @param {object}     options options object of the canvas
 	 */
@@ -125,7 +120,7 @@
 		})();
 
 		/**
-		 * Draw the background of the plugin including the scale and the track
+		 *
 		 */
 		var drawBackground = function () {
 			if (options.scaleColor) drawScale();
@@ -254,7 +249,6 @@
 				enabled: true,
 			},
 			easing: function (x, t, b, c, d) {
-				// more can be found here: http://gsgd.co.uk/sandbox/jquery/easing/
 				t = t / (d / 2);
 				if (t < 1) {
 					return (c / 2) * t * t + b;
