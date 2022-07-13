@@ -2,7 +2,7 @@
 				CSS Styles Light
 --------------------------------------------------
 
-    Author: Evandro
+    Author: Evandro Delgado
     Copyright: 2022
 
 --------------------------------------------------
@@ -1290,7 +1290,6 @@ blockquote:before,
 	padding-bottom: 20px;
 }
 
-/* Testimonial Block_ Add later if need it*/
 .pt-about .testimonial-item {
 	position: relative;
 	padding: 30px;
@@ -1327,7 +1326,6 @@ blockquote:before,
 	color: #0e0f10;
 }
 
-/* Price add later if need it */
 .pt-about .price {
 	text-align: center;
 	margin-bottom: 80px;
@@ -1412,10 +1410,6 @@ blockquote:before,
 	padding-top: 15px;
 }
 
-/* ---------------------------------
-		6. Extra Section
---------------------------------- */
-/* Experience */
 .pt-resume .experience .item {
 	position: relative;
 	padding-top: 15px;
@@ -1478,7 +1472,6 @@ blockquote:before,
 	transition: all 0.3s;
 }
 
-/* Skills Bar */
 .pt-resume .skill-item {
 	padding: 0 20px;
 }
@@ -1549,7 +1542,6 @@ blockquote:before,
 	transform: translateX(-50%);
 }
 
-/* Work Process */
 .pt-resume .work-process .ltr {
 	text-align: right;
 }
@@ -1634,9 +1626,6 @@ blockquote:before,
 	right: 0px;
 }
 
-/* ---------------------------------
-		7. Portfolio Section
---------------------------------- */
 /* Portfolio Filter */
 .pt-portfolio .portfolio-filter {
 	text-align: center;
@@ -2019,9 +2008,7 @@ blockquote:before,
 .contact-valid #error i {
 	color: #ca1d1d;
 }
-/* ---------------------------------
-		10. Blog Page Css
---------------------------------- */
+
 .blog-page {
 	position: absolute;
 	width: 100%;
@@ -2184,9 +2171,6 @@ blockquote:before,
 	margin-bottom: 15px;
 }
 
-/* ---------------------------------
-		11. Blog List Css
---------------------------------- */
 .blog-list {
 	position: absolute;
 	width: 100%;
@@ -2556,9 +2540,6 @@ blockquote:before,
 	background-color: #0e0f10 !important;
 }
 
-/* ---------------------------------
-		12. Preloader Css
---------------------------------- */
 #preloader {
 	position: fixed;
 	width: 100%;
@@ -2974,7 +2955,6 @@ blockquote:before,
 	}
 }
 
-/* Animation Music Line */
 @-webkit-keyframes musicline {
 	0% {
 		height: 5px;
@@ -3047,7 +3027,6 @@ blockquote:before,
 	}
 }
 
-/* Ken Burns Slide */
 @-webkit-keyframes kenburnsSlide {
 	0% {
 		opacity: 0;

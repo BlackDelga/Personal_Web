@@ -2,7 +2,7 @@
 					Js Main
 --------------------------------------------------
 
-    Author: Evandro
+    Author: Evandro Delgado
     Copyright: 2022
 
 --------------------------------------------------
@@ -40,7 +40,7 @@ $(window).on("load", function () {
 		'<audio loop autoplay volume="0" id="audio-player"><source src="music/BlindingLights_instrument.mp3" type="audio/mpeg"></audio>'
 	);
 	var audio = document.getElementById("audio-player");
-	audio.volume = 0.3;
+	audio.volume = 0.1;
 
 	if ($(window).length) {
 		$(".music-bg").css({ visibility: "visible" });
