@@ -1,8 +1,3 @@
-/*!
- * Bootstrap v4.1.3 (https://getbootstrap.com/)
- * Copyright 2011-2018 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
 !(function (t, e) {
 	"object" == typeof exports && "undefined" != typeof module
 		? e(exports, require("jquery"), require("popper.js"))
@@ -1164,9 +1159,7 @@
 								if ((bt(t).trigger(i), !i.isDefaultPrevented())) {
 									if (!this._inNavbar) {
 										if ("undefined" == typeof h)
-											throw new TypeError(
-												"Bootstrap dropdown require Popper.js (https://popper.js.org)"
-											);
+											throw new TypeError("Dropdown require Popper.js");
 										var r = this._element;
 										"parent" === this._config.reference
 											? (r = t)
@@ -1850,9 +1843,7 @@
 			(We = (function () {
 				function i(t, e) {
 					if ("undefined" == typeof h)
-						throw new TypeError(
-							"Bootstrap tooltips require Popper.js (https://popper.js.org)"
-						);
+						throw new TypeError("Tooltips require Popper.js ");
 					(this._isEnabled = !0),
 						(this._timeout = 0),
 						(this._hoverState = ""),
@@ -2754,7 +2745,7 @@
 	!(function (t) {
 		if ("undefined" == typeof t)
 			throw new TypeError(
-				"Bootstrap's JavaScript requires jQuery. jQuery must be included before Bootstrap's JavaScript."
+				"JavaScript requires jQuery. jQuery must be included"
 			);
 		var e = t.fn.jquery.split(" ")[0].split(".");
 		if (
@@ -2763,7 +2754,7 @@
 			4 <= e[0]
 		)
 			throw new Error(
-				"Bootstrap's JavaScript requires at least jQuery v1.9.1 but less than v4.0.0"
+				"JavaScript requires at least jQuery v1.9.1 but less than v4.0.0"
 			);
 	})(e),
 		(t.Util = Fn),
